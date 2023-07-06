@@ -25,14 +25,12 @@
 .item:hover{
     color: brown;
 }
-#b-color{
+.b-color{
     background-color: red;
     color: white;
 }
-.banner-image{
 
-}
-#b-image{
+.b-image{
     height: 300px;
     width: 300px;
 }
@@ -64,6 +62,18 @@ background-image: url("../images/background.png"),linear-gradient(45deg,rgb(8,8,
 }
 #bp{
     font-family: serif;
+    font-size: medium;
+
+}
+.control{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    padding: 10px ;
+    margin: 20px; 
     font-size: medium;
 
 }
